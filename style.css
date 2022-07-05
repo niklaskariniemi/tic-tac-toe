@@ -2,3 +2,38 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* --Main-- */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --Game Area--*/
+.gamearea {
+    display: grid;
+    grid-template-columns: repeat(1, 1f);
+    grid-template-rows: repeat(3, 1f);
+    margin-top: 30px;
+    background-color:rgb(208, 208, 208);
+    height: 500px;
+    width: 750px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 7px -2px black;
+}
+
+.scorecard {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.gameboard {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.restart {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
