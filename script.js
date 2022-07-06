@@ -54,7 +54,11 @@ const gameboard = ( statusBox, boxNumber) => {
 box1.addEventListener('click', () => {
     const boxOne = gameboard( "mark", 0 );
     const p1 = document.createElement('p');
-    p1.textContent = 'X';
+    box1.textContent = 'X';
+    box1.style.display = "flex";
+    box1.style.alignItems = "center";
+    box1.style.justifyContent = "center";
+    box1.style.fontSize = "32px";
     box1.appendChild(p1);
     boxOne.test();
 });
@@ -62,7 +66,11 @@ box1.addEventListener('click', () => {
 box2.addEventListener('click', () => {
     const boxTwo = gameboard( "mark", 1 );
     const p2 = document.createElement('p');
-    p2.textContent = 'X';
+    box2.textContent = 'X';
+    box2.style.display = "flex";
+    box2.style.alignItems = "center";
+    box2.style.justifyContent = "center";
+    box2.style.fontSize = "32px";
     box2.appendChild(p2);
     boxTwo.test();
 });
@@ -70,7 +78,11 @@ box2.addEventListener('click', () => {
 box3.addEventListener('click', () => {
     const boxThree = gameboard( "mark", 2 );
     const p3 = document.createElement('p');
-    p3.textContent = 'X';
+    box3.textContent = 'X';
+    box3.style.display = "flex";
+    box3.style.alignItems = "center";
+    box3.style.justifyContent = "center";
+    box3.style.fontSize = "32px";
     box3.appendChild(p3);
     boxThree.test();
 });
@@ -78,7 +90,11 @@ box3.addEventListener('click', () => {
 box4.addEventListener('click', () => {
     const boxFour = gameboard( "mark", 3 );
     const p4 = document.createElement('p');
-    p4.textContent = 'X';
+    box4.textContent = 'X';
+    box4.style.display = "flex";
+    box4.style.alignItems = "center";
+    box4.style.justifyContent = "center";
+    box4.style.fontSize = "32px";
     box4.appendChild(p4);
     boxFour.test();
 });
@@ -86,7 +102,11 @@ box4.addEventListener('click', () => {
 box5.addEventListener('click', () => {
     const boxFive = gameboard( "mark", 4 );
     const p5 = document.createElement('p');
-    p5.textContent = 'X';
+    box5.textContent = 'X';
+    box5.style.display = "flex";
+    box5.style.alignItems = "center";
+    box5.style.justifyContent = "center";
+    box5.style.fontSize = "32px";
     box5.appendChild(p5);
     boxFive.test();
 });
@@ -94,7 +114,11 @@ box5.addEventListener('click', () => {
 box6.addEventListener('click', () => {
     const boxSix = gameboard( "mark", 5 );
     const p6 = document.createElement('p');
-    p6.textContent = 'X';
+    box6.textContent = 'X';
+    box6.style.display = "flex";
+    box6.style.alignItems = "center";
+    box6.style.justifyContent = "center";
+    box6.style.fontSize = "32px";
     box6.appendChild(p6);
     boxSix.test();
 });
@@ -102,7 +126,11 @@ box6.addEventListener('click', () => {
 box7.addEventListener('click', () => {
     const boxSeven = gameboard( "mark", 6 );
     const p7 = document.createElement('p');
-    p7.textContent = 'X';
+    box7.textContent = 'X';
+    box7.style.display = "flex";
+    box7.style.alignItems = "center";
+    box7.style.justifyContent = "center";
+    box7.style.fontSize = "32px";
     box7.appendChild(p7);
     boxSeven.test();
 });
@@ -110,7 +138,11 @@ box7.addEventListener('click', () => {
 box8.addEventListener('click', () => {
     const boxEight = gameboard( "mark", 7 );
     const p8 = document.createElement('p');
-    p8.textContent = 'X';
+    box8.textContent = 'X';
+    box8.style.display = "flex";
+    box8.style.alignItems = "center";
+    box8.style.justifyContent = "center";
+    box8.style.fontSize = "32px";
     box8.appendChild(p8);
     boxEight.test();
 });
@@ -118,7 +150,11 @@ box8.addEventListener('click', () => {
 box9.addEventListener('click', () => {
     const boxNine = gameboard( "mark", 8 );
     const p9 = document.createElement('p');
-    p9.textContent = 'X';
+    box9.textContent = 'X';
+    box9.style.display = "flex";
+    box9.style.alignItems = "center";
+    box9.style.justifyContent = "center";
+    box9.style.fontSize = "32px";
     box9.appendChild(p9);
     boxNine.test();
 });
